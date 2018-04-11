@@ -26,9 +26,9 @@ function iLoveTheBeatles(number1) {
       number1 -= 1;
     }
     while (number1 > 0);
-    console.log(newlist);
+    return newlist;
   } else {
     newlist.push("I love the Beatles!");
-    console.log(newlist);
+    return newlist;
   }
 }
